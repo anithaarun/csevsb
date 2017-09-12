@@ -2,27 +2,21 @@
 #include<conio.h>
 void main()
 {
-int a,b,c;
-a=2;
-b=-4;
-c=8;
+int a;
+  printf("enter the number");
+  scanf("%d",&a);
+
+if(a>0)
 {
-if(a%2==0)
-{
-printf("a is positive");
-scanf("%d",&a);
+printf("  positive");
 }
-else if
+else if(a<0)
 {
-printf("b is positive");
+printf("  positive");
 }
-else if
-{
-printf("c is positive")
-}
+
 else
 {
-printf("all are negative");
-}
+printf("zero");
 }
 }

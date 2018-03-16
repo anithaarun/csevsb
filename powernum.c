@@ -1,11 +1,12 @@
 #include<stdio.h>
-void main()
+int main()
 {
-    int n1,n2,power;
-    printf("\n Enter the number n1");
-    scanf("%d",&n1);
-    printf("\n Enter the number n2");
-    scanf("%d",&n2);
-    power=pow(n1,n2);
+    int num1,num2,power;
+    printf("\n Enter the number1");
+    scanf("%d",&num1);
+    printf("\n Enter the number2");
+    scanf("%d",&num2);
+    power=pow(num1,num2);
     printf("\n The power of number is %d",power);
+    return 0;
 }
